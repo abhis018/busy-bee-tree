@@ -1,23 +1,35 @@
-import logo from './logo.svg';
+import Header from "./components/Header";
+import Body from "./components/Body";
+import Gallery from "./components/Gallery";
+import FAQ from "./components/FAQ";
+import Private from "./components/Private";
+import Contact from "./components/Contact";
+import Menu from "./components/Menu";
+import Cart from "./components/Cart";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Router>
+        <Routes>
+          <Route path="/" element={
+            <>
+            <div className="Busy-bee-tree">
+              <Header/>
+              <Body/>
+            </div>
+            </>
+          }/>
+          <Route path="/gallery" element={<Gallery/>}/>
+          <Route path="/faq" element={<FAQ/>}/>
+          <Route path="/private" element={<Private/>}/>
+          <Route path="/menu" element={<Menu/>}/>
+          <Route path="/contact" element={<Contact/>}/>
+          <Route path="/cart" element={<Cart/>}/>
+        </Routes>
+      </Router>
     </div>
   );
 }
