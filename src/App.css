@@ -1,38 +1,194 @@
-.App {
-  text-align: center;
+.Busy-bee-tree{
+  background-image: url(./images/Wrap-the-trees-with-light-1024x725.jpg);
+  background-repeat: no-repeat; 
+  background-size: cover;       
+  height: 100vh;                
+  margin: 0; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.logo{
+  width: 6em;
+  height: 6em;
+}
+
+.logo-container{
+  display: flex;
+  padding: 5px;
+}
+.logo-container > h2{
+  padding: 10px;
+  color: #FFD700;
+  text-shadow:
+    2px 2px 0 #000,
+    4px 4px 0 #333,
+    6px 6px 0 #666;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.nav-container>ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.body > h2{
+  padding: 10px;
+  color: #FFD700;
+  text-shadow:
+    2px 2px 0 #000,
+    4px 4px 0 #333,
+    6px 6px 0 #666;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+.nav-container>ul>li{
+  color: #EDEDED;
+  text-shadow:
+    2px 2px 0 #000,
+    4px 4px 0 #333,
+    6px 6px 0 #666;
+  font-weight: bold;
+  padding: 20px;
+  cursor: pointer;
+}
+li:hover{
+   transform: translateY(-2px);
+}
+
+.body>h2{
+  text-align: center;
+  font-size: 40px;
+  padding: 100px 100px 0 150px;
+}
+
+.body>h4{
+  text-align: center;
+  font-size: 20px;
   color: white;
+  text-shadow:
+    2px 2px 0 #000,
+    4px 4px 0 #333,
+    6px 6px 0 #666;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+a{
+  text-decoration: none;
+  color: inherit;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 768px) {
+  .media-container img,
+  .media-container video {
+    width: 100%;
+    height: auto;
   }
-  to {
-    transform: rotate(360deg);
+
+  .media {
+    width: 100%;
   }
+}
+
+.gallery{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+  background-color: #c1b7b7;
+}
+
+.gallery>video{
+  margin: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.media-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.media-container img,
+.media-container video {
+  width: 370px;
+  height: 300px;
+  object-fit: cover; 
+  border-radius: 5px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.media{
+  margin: 15px;
+  padding: 10px;
+  color: white;
+  border-radius: 8px;
+}
+
+.media > p{
+  width: 350px;
+  font-size: 30px;
+  text-align: center;
+  word-wrap: break-word;
+  padding: 10px;
+  text-shadow:
+    2px 2px 0 #000,
+    4px 4px 0 #333,
+    6px 6px 0 #666;
+  font-weight: bold;
+}
+
+.logo-container{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo-box{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo-btn{
+  padding: 10px;
+  display: flex;
+  align-items:center;
+}
+.back-btn{
+  background-color: #f0c040; 
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.back-btn:hover {
+  background-color: #e0a800;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.more-btn{
+  background-color: transparent;
+  border: none; 
+  color: blue;  
+  cursor: pointer;
+  font-weight: bold;
+}
+.reservation-box{
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 50px;
+  display: inline-block;     
+  max-width: 300px;         
+  word-wrap: break-word;
 }
