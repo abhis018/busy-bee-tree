@@ -25,9 +25,9 @@
   padding: 10px;
   color: #FFD700;
   text-shadow:
-    2px 2px 0 #000,
-    4px 4px 0 #333,
-    6px 6px 0 #666;
+    2px 2px 0 #000;
+    /* 4px 4px 0 #333; */
+    /* 6px 6px 0 #666; */
   font-weight: bold;
   font-family: "Times New Roman", Times, serif;
 }
@@ -98,7 +98,6 @@ a{
 
 .gallery{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
-  background-color: #c1b7b7;
 }
 
 .gallery>video{
@@ -119,7 +118,7 @@ a{
   height: 300px;
   object-fit: cover; 
   border-radius: 5px; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.8);
 }
 
 .media{
@@ -191,4 +190,111 @@ a{
   display: inline-block;     
   max-width: 300px;         
   word-wrap: break-word;
+}
+
+
+
+
+
+
+
+
+
+
+
+.res-card {
+  width: 240px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin: 5px;
+  background-color: aquamarine;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.res-card:hover{
+  cursor: pointer;
+  border: 1px;
+  box-shadow: 0 12px 20px rgba(0,0,0,0.3);
+}
+
+.res-logo {
+  width:100%;
+}
+
+.res-container{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+}
+
+
+
+.filter{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter > button{
+  border: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: aquamarine;
+  color: red;
+  margin: 20px;
+  padding: 10px;
+}
+
+.filter > button:hover{
+  color: blue;
+  cursor: pointer;
+  transform: scale(1.05) translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0,0,0,0.3);
+}
+
+
+
+.res-card-logo {
+  width: 240px;
+  height: 200px;
+  object-fit: cover; 
+  border-radius: 5px; 
+  box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.8);
+}
+
+.name-price{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.name-price > .price{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.desc{
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 100;
+  display: flex;
+}
+
+.res-desc{
+  padding: 5px;
+}
+
+.add-minus-btn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.add-minus-btn > button{
+  border: none;
+  margin: 1px;
+  background-color: inherit;
+}
+
+.add-minus-btn > button:hover{
+  background-color: blue;
 }
