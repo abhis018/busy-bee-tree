@@ -6,7 +6,7 @@ import video5 from "../images/video5.mp4"
 import img1 from "../images/270937708_611279030087361_4519147822408125663_n.webp.jpg";
 import img2 from "../images/331600316_713419987155196_1885277905904417843_n.webp.jpg";
 import img3 from "../images/491899981_18015234899706601_7142213015893812756_n.webp";
-import img4 from "../images/501277424_18018293480706601_4403042401682716580_n.webp";
+import img4 from "../images/17.webp";
 import img5 from "../images/494412358_18015234908706601_7858305182552597741_n.webp"
 import {Link} from "react-router-dom"
 import myImage from '../images/logo.png';
@@ -17,13 +17,10 @@ const Gallery = () => {
     <div className="gallery">
         <div className="logo-box">
             <div className='logo-container'>
+              <Link to="/">
                 <img className="logo" alt="logo" src={myImage}></img>
-                <h2>Busy-Bee-Tree</h2>
-            </div>
-            <div className="logo-btn">
-                <Link to="/">
-                    <button className="back-btn">← Back to Home</button>
-                </Link>
+              </Link>
+              <h2>Busy-Bee-Tree</h2>
             </div>
         </div>
         <div className="media-container">
@@ -35,10 +32,10 @@ const Gallery = () => {
             </div>
             <div className="media">
                 <p>"You can’t make everyone happy... unless you’re pizza."</p>
-                <img src={img1}/>
+                <img alt="img" src={img1}/>
             </div>
             <div className="media">
-                <img src={img2}/>
+                <img alt="img" src={img2}/>
                 <p>"Stressed spelled backward is desserts… coincidence? We think not!"</p>
             </div>
             <div className="media">
@@ -48,7 +45,7 @@ const Gallery = () => {
                 </video>
             </div>
             <div className="media">
-                <img src={img3}/>
+                <img alt="img" src={img3}/>
                 <p>"Every pizza is a personal pizza if you believe in yourself."</p>
             </div>
             <div className="media">
@@ -58,12 +55,12 @@ const Gallery = () => {
                 </video>
             </div>
             <div className="media">
-                <img src={img4}/>
+                <img alt="img" src={img4}/>
                 <p>"Because every story starts over a bowl of Maggi."</p>
             </div>
             <div className="media">
                 <p>"Where strangers become friends and friends become family."</p>
-                <img src={img5}/>
+                <img alt="img" src={img5}/>
             </div>
             <div className="media">
                 <video controls>
