@@ -129,15 +129,15 @@ a{
 }
 
 .media > p{
+  color: #000;
+  font-family:'Courier New', Courier, monospace;
   width: 350px;
   font-size: 30px;
   text-align: center;
   word-wrap: break-word;
   padding: 10px;
   text-shadow:
-    2px 2px 0 #000,
-    4px 4px 0 #333,
-    6px 6px 0 #666;
+    2px 2px 0 #666;
   font-weight: bold;
 }
 
