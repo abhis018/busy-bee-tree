@@ -1,0 +1,104 @@
+{
+  "restaurant": {
+    "id": "rest001",
+    "name": "Busy-Bee-Tree",
+    "location": "Dumka",
+    "categories": [
+      {
+        "categoryName": "Snacks",
+        "image": "14.webp",
+        "items": [
+          { "id": "food001", "name": "French Fries", "price": 59, "description": "Crispy golden potato sticks, lightly salted and fried to perfection." },
+          { "id": "food002", "name": "Chilli Potato", "price": 99, "description": "Spicy and tangy fried potatoes tossed in Indo-Chinese sauce." },
+          { "id": "food003", "name": "Spring Roll", "price": 79, "description": "Crispy rolls filled with mixed veggies and served with dip." },
+          { "id": "food004", "name": "Vada Pao", "price": 49, "description": "Mumbai-style spicy potato vada stuffed in soft bun with chutney." },
+          { "id": "food005", "name": "Veg Momos", "price": 60, "description": "Steamed dumplings filled with spicy mixed vegetables." },
+          { "id": "food006", "name": "Pizza Pocket", "price": 60, "description": "Cheesy and spicy pizza-filled pocket snack." },
+          { "id": "food007", "name": "Cheese Golgappe", "price": 30, "description": "Crispy golgappas filled with creamy cheese and masala mix." }
+        ]
+      },
+      {
+        "categoryName": "Sandwiches & Rolls",
+        "image": "11.jpeg",
+        "items": [
+          { "id": "food008", "name": "Bun Maska", "price": 39, "description": "Soft bun served with a generous spread of butter." },
+          { "id": "food009", "name": "Peanut Butter Toast", "price": 49, "description": "Crispy toast topped with smooth peanut butter." },
+          { "id": "food010", "name": "Veg Bread Roll", "price": 39, "description": "Deep-fried bread roll stuffed with spiced vegetable filling." },
+          { "id": "food011", "name": "Cheese Bread Roll", "price": 59, "description": "Crispy bread roll filled with molten cheese goodness." },
+          { "id": "food012", "name": "Paneer Cheese Bread Roll", "price": 99, "description": "Stuffed roll with paneer and gooey cheese filling." },
+          { "id": "food013", "name": "Veg Sandwich", "price": 69, "description": "Fresh vegetables layered in soft bread with green chutney." },
+          { "id": "food014", "name": "Paneer Cheese Sandwich", "price": 119, "description": "Grilled sandwich with paneer, cheese and spicy chutneys." },
+          { "id": "food015", "name": "Aloo Tikki Veg Sandwich", "price": 89, "description": "Sandwich packed with crispy aloo tikki and vegetables." }
+        ]
+      },
+      {
+        "categoryName": "Burgers",
+        "image": "15.jpg",
+        "items": [
+          { "id": "food016", "name": "Veg Burger", "price": 49, "description": "Classic burger with veggie patty, lettuce and sauces." },
+          { "id": "food017", "name": "Veg Cheese Burger", "price": 69, "description": "Burger with cheesy veggie patty and creamy mayo." },
+          { "id": "food018", "name": "Paneer Cheese Burger", "price": 89, "description": "Burger with paneer patty and melted cheese topping." }
+        ]
+      },
+      {
+        "categoryName": "Maggie",
+        "image": "17.webp",
+        "items": [
+          { "id": "food019", "name": "Plain Maggie", "price": 29, "description": "Simple and classic Maggi noodles cooked with love." },
+          { "id": "food020", "name": "Fried Maggie", "price": 49, "description": "Maggi stir-fried with vegetables and spices." },
+          { "id": "food021", "name": "Sweet Corn Cheese Maggie", "price": 79, "description": "Maggi cooked with sweet corn and melted cheese." },
+          { "id": "food022", "name": "Paneer Maggie", "price": 69, "description": "Spicy Maggi loaded with paneer cubes." }
+        ]
+      },
+      {
+        "categoryName": "Chai & Coffee",
+        "image": "16.jpg",
+        "items": [
+          { "id": "food023", "name": "Chai", "price": 20, "description": "Hot and refreshing Indian milk tea." },
+          { "id": "food024", "name": "Masala Chai", "price": 30, "description": "Flavored tea brewed with Indian spices." },
+          { "id": "food025", "name": "Tandoor Chai", "price": 25, "description": "Smoky clay-pot infused chai with rich aroma." },
+          { "id": "food026", "name": "Lemon Chai", "price": 25, "description": "Refreshing tea infused with lemon zest." },
+          { "id": "food027", "name": "Coffee", "price": 30, "description": "Classic hot coffee with rich aroma." },
+          { "id": "food028", "name": "Black Coffee", "price": 30, "description": "Strong and bold black coffee." },
+          { "id": "food029", "name": "Hot Chocolate", "price": 60, "description": "Rich and creamy hot chocolate drink." },
+          { "id": "food030", "name": "Chocolate", "price": 50, "description": "Sweet and warm cocoa-based drink." }
+        ]
+      },
+      {
+        "categoryName": "Cold Beverages",
+        "image": "12.jpg",
+        "items": [
+          { "id": "food031", "name": "Kesar Milk", "price": 70, "description": "Chilled milk flavored with saffron and dry fruits." },
+          { "id": "food032", "name": "Strawberry Milk", "price": 60, "description": "Chilled milkshake with fresh strawberry flavor." },
+          { "id": "food033", "name": "Regular Cold Drink", "price": 25, "description": "Carbonated soft drink served chilled." },
+          { "id": "food034", "name": "Masala Cold-Drink", "price": 50, "description": "Tangy cold drink with chatpata masala twist." },
+          { "id": "food035", "name": "Cold Coffee", "price": 70, "description": "Chilled coffee blended with milk and ice." },
+          { "id": "food036", "name": "Cold Coffee with Ice-Cream", "price": 100, "description": "Cold coffee topped with vanilla ice cream." },
+          { "id": "food037", "name": "Virgin Mojito", "price": 60, "description": "Refreshing mint-lime mocktail with soda." },
+          { "id": "food038", "name": "Mango Mojito", "price": 50, "description": "Tropical mojito with mango flavor." },
+          { "id": "food039", "name": "Lichi Mojito", "price": 50, "description": "Cool mojito with sweet litchi twist." },
+          { "id": "food040", "name": "Blue Berry Mojito", "price": 60, "description": "Fruity mojito infused with blueberry essence." }
+        ]
+      },
+      {
+        "categoryName": "Desserts",
+        "image": "13.png",
+        "items": [
+          { "id": "food041", "name": "Chocolate Mousse", "price": 70, "description": "Smooth and creamy chocolate dessert." },
+          { "id": "food042", "name": "Baked Yogurt", "price": 20, "description": "Thick yogurt dessert baked and sweetened." },
+          { "id": "food043", "name": "Sliced Fruit Cake", "price": 20, "description": "Soft cake filled with colorful candied fruits." },
+          { "id": "food044", "name": "Muffin", "price": 49, "description": "Soft and moist muffin available in various flavors." }
+        ]
+      },
+      {
+        "categoryName": "Combos",
+        "image": "13.png",
+        "items": [
+          { "id": "food045", "name": "Chai with Bun Maska", "price": 79, "description": "Classic chai served with buttery bun maska." },
+          { "id": "food046", "name": "French Fries with Masala Cold-Drink", "price": 79, "description": "Crispy fries served with spicy cold drink." }
+        ]
+      }
+    ]
+  }
+}
+
