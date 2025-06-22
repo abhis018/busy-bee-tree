@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('../public/fonts/myCustomFont.ttf') format('truetype');
+  font-weight: normal;
+  font-style:normal;
+}
+
 .Busy-bee-tree{
   background-image: url(./images/Wrap-the-trees-with-light-1024x725.jpg);
   background-repeat: no-repeat; 
@@ -6,15 +13,29 @@
   margin: 0; 
 }
 
+
+.Busy-bee-tree::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); 
+  z-index: 1;
+}
+
 .header{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  position: relative;
+  z-index: 2;
 }
 
 .logo{
-  width: 6em;
-  height: 6em;
+  width: 5em;
+  height: 5em;
 }
 
 .logo-container{
@@ -26,10 +47,7 @@
   color: #FFD700;
   text-shadow:
     2px 2px 0 #000;
-    /* 4px 4px 0 #333; */
-    /* 6px 6px 0 #666; */
   font-weight: bold;
-  font-family: "Times New Roman", Times, serif;
 }
 
 .nav-container>ul{
@@ -42,11 +60,10 @@
   padding: 10px;
   color: #FFD700;
   text-shadow:
-    2px 2px 0 #000,
-    4px 4px 0 #333,
-    6px 6px 0 #666;
-  font-weight: bold;
-  font-family: "Times New Roman", Times, serif;
+    2px 2px 0 #666;
+  font-family: "Courgette", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 .nav-container>ul>li{
   color: #EDEDED;
@@ -60,6 +77,11 @@
 }
 li:hover{
    transform: translateY(-2px);
+}
+
+.body{
+  position: relative;
+  z-index: 2;
 }
 
 .body>h2{
