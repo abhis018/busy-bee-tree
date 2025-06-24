@@ -8,21 +8,11 @@ import img2 from "../images/331600316_713419987155196_1885277905904417843_n.webp
 import img3 from "../images/491899981_18015234899706601_7142213015893812756_n.webp";
 import img4 from "../images/17.webp";
 import img5 from "../images/494412358_18015234908706601_7858305182552597741_n.webp"
-import {Link} from "react-router-dom"
-import myImage from '../images/logo.png';
 
 const Gallery = () => {
 
   return (
     <div className="gallery">
-        <div className="logo-box">
-            <div className='logo-container'>
-              <Link to="/">
-                <img className="logo" alt="logo" src={myImage}></img>
-              </Link>
-              <h2>Busy-Bee-Tree</h2>
-            </div>
-        </div>
         <div className="media-container">
             <div className="media">
                 <video controls>
