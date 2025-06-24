@@ -19,12 +19,12 @@ function App() {
             <div className="Busy-bee-tree">
               <Header/>
               <Body/>
+              <Gallery/>
+              <FAQ/>
+              <Private/>
             </div>
             </>
           }/>
-          <Route path="/gallery" element={<Gallery/>}/>
-          <Route path="/faq" element={<FAQ/>}/>
-          <Route path="/private" element={<Private/>}/>
           <Route path="/menu" element={<Menu/>}/>
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/cart" element={<Cart/>}/>
