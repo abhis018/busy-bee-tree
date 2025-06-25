@@ -6,7 +6,7 @@
 }
 
 .Busy-bee-tree{
-  background-image: url(./images/Wrap-the-trees-with-light-1024x725.jpg);
+ background-image: url(./images/Wrap-the-trees-with-light-1024x725.jpg);
   background-repeat: no-repeat; 
   background-size: cover;       
   height: 100vh;                
@@ -24,6 +24,8 @@
   background-color: rgba(0, 0, 0, 0.7); 
   z-index: 1;
 }
+
+
 
 .header{
   display: flex;
@@ -82,6 +84,7 @@ li:hover{
 .body{
   position: relative;
   z-index: 2;
+  margin-bottom: 25%;
 }
 
 .body>h2{
